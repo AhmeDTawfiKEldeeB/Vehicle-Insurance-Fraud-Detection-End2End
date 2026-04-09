@@ -1,0 +1,18 @@
+services:
+  fraud-api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    container_name: fraud-api
+    ports:
+      - "8010:8000"
+    restart: unless-stopped
+
+  fraud-streamlit:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    container_name: fraud-streamlit
+    ports:
+      - "8501:8501"
+    restart: unless-stopped

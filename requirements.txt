@@ -18,3 +18,4 @@ mlflow
 pytest
 jupyter
 optuna
+streamlit
