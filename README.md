@@ -10,6 +10,10 @@ This repository includes:
 - 🖥️ Streamlit app for interactive use
 - 🐳 Docker setup for one-command deployment
 
+## 🖼️ App Preview
+
+![Vehicle Insurance Fraud Detection App](assets/Screenshot%202026-04-09%20123930.png)
+
 ---
 
 ## ✨ Highlights
